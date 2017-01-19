@@ -175,7 +175,7 @@ Status: 201 Created
     "content": "a content",
     "url": "an url",
     "category": "a category",
-    "author": "an author",
+    "owner": "an owner",
     "cover": "a cover url",
     "published_at": "2017-01-19T05:44:38Z"
 }
