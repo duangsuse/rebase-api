@@ -102,6 +102,64 @@ Status: 200 OK
 }
 ```
 
+# Categories
+
+A user can create up to 11 categories.
+
+## List categories of someone
+
+```
+GET /categories/:owner
+```
+
+Response
+
+```
+Status: 200 OK
+
+[
+    {
+        "key": "a key",
+        "name": "a name of the category",
+        "rank": 1,
+        "owner": "drakeet"
+    },
+    {
+        "key": "a key",
+        "name": "a name of the category",
+        "rank": 2,
+        "owner": "drakeet"
+    }
+]
+```
+
+## Create a category
+
+```
+POST /categories
+```
+
+Parameters
+
+| Name      |    Type | Description  |
+| :-------- | :--------| :-- |
+| key | String | **Required**. The key of the category. It's the id of the category. |
+| name | String | **Required**. The name of the category. |
+| rank | int | **Required**. The rank of the category. |
+
+Response
+
+```
+Status: 201 Created
+
+{
+    "key": "a key",
+    "name": "a name of the category",
+    "rank": 1,
+    "owner": "drakeet"
+}
+```
+
 # Feeds
 
 A feed may contain anything relating to its category.
