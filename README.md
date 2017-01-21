@@ -151,6 +151,7 @@ Response
 
 ```
 Status: 201 Created
+Location: https://api.drakeet.com/rebase/categories/drakeet/cat
 
 {
     "key": "a key",
