@@ -176,7 +176,7 @@ Parameters
 | Name      |    Type | Description  |
 | :-------- | :--------| :-- |
 | last_id | String | Default: null. The last feed id of the feeds. |
-| size | int | Default: 15. The size of the feeds. |
+| size | int | Default: 20. The size of the feeds. |
 
 Response
 
