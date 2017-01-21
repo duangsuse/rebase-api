@@ -65,7 +65,7 @@ Input
 | Name      |    Type | Description  |
 | :-------- | :--------| :-- |
 | username | String | **Required**. The username of the user. |
-| password | String | **Required**. The password of the user. |
+| password | String | **Required**. The password of the user, will be stored with SHA hash. |
 | name | String | **Required**. The name of the user. |
 | email | String | **Required**. The email of the user to contact. |
 | description | String | **Required**. The description of the user. |
