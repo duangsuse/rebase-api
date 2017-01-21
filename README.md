@@ -217,7 +217,6 @@ Input
 
 | Name      |    Type | Description  |
 | :-------- | :--------| :-- |
-| category | String | **Required**. The category of the feed. |
 | title | String | The title of the feed. |
 | content | String | The content of the feed. |
 | url | String | The target URL of the feed. |
@@ -235,7 +234,7 @@ Location: https://api.drakeet.com/rebase/categories/drakeet/fun/feeds/5883235334
     "content": "a content",
     "url": "an url",
     "category": "a category",
-    "owner": "an owner",
+    "owner": "an owner's username",
     "cover": "a cover url",
     "published_at": "2017-01-19T05:44:38Z"
 }
