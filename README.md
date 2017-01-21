@@ -30,7 +30,7 @@ For POST, PATCH, PUT, and DELETE requests, parameters not included in the URL sh
 
 ## Access Token
 
-Access token is required for all  POST, PATCH, PUT, and DELETE requests.
+Access token is required for all POST, PATCH, PUT, and DELETE requests, except `user register`.
 
 Header
 
@@ -68,6 +68,7 @@ Input
 | password | String | **Required**. The password of the user. |
 | name | String | **Required**. The name of the user. |
 | email | String | **Required**. The email of the user to contact. |
+| description | String | **Required**. The description of the user. |
 
 Response
 
@@ -77,7 +78,8 @@ Status: 201 Created
 {
     "username": "drakeet",
     "name": "drakeet",
-    "email": "drakeet.me@gmail.com"
+    "email": "drakeet.me@gmail.com", 
+    "description": "an Android developer."
 }
 ```
 
