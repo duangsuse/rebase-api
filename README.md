@@ -227,6 +227,7 @@ Response
 
 ```
 Status: 201 Created
+Location: https://api.drakeet.com/rebase/categories/drakeet/fun/feeds/5883235334b352758f6617d8
 
 {
     "_id": "1",
