@@ -241,3 +241,14 @@ Location: https://api.drakeet.com/rebase/categories/drakeet/fun/feeds/5883235334
     "published_at": "2017-01-19T05:44:38Z"
 }
 ```
+## Delete a feed
+
+```
+DELETE categories/:owner/:category/feeds/:_id
+```
+
+Response
+
+```
+Status: 204 No Content
+```
