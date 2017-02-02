@@ -1,4 +1,4 @@
-API v0.1
+API v0.7
 
 # Specifications
 
