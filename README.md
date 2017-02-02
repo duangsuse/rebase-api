@@ -46,7 +46,6 @@ There is only one type of errors on API calls.
 Status 4xx Description
 
 {
-  "error_code": 4xx, 
   "error": "Not Found"
 }
 ```
