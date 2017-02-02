@@ -101,6 +101,7 @@ Status: 200 OK
 
 {
   "access_token": "e72e16c7e42f292c6912e7710c838347ae178b4a"
+  "updated_at": "2017-02-02T20:40:42+0800"
 }
 ```
 
@@ -194,7 +195,7 @@ Status: 200 OK
         "category": "a category",
         "owner": "an owner",
         "cover": "a cover url",
-        "published_at": "2017-01-19T05:44:38Z"
+        "published_at": "2017-02-02T20:40:42+0800"
     },
     {
         "_id": "2",
@@ -204,7 +205,7 @@ Status: 200 OK
         "category": "a category",
         "owner": "an owner",
         "cover": "a cover url",
-        "published_at": "2017-01-19T05:44:38Z"
+        "published_at": "2017-02-02T20:40:41+0800"
     }
 ]
 ```
@@ -238,7 +239,7 @@ Location: https://api.drakeet.com/rebase/categories/drakeet/fun/feeds/5883235334
     "category": "a category",
     "owner": "an owner's username",
     "cover": "a cover url",
-    "published_at": "2017-01-19T05:44:38Z"
+    "published_at": "2017-02-02T20:40:42+0800"
 }
 ```
 ## Delete a feed
