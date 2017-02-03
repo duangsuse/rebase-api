@@ -83,10 +83,10 @@ Status: 201 Created
 }
 ```
 
-## Authentications
+## Authorization
 
 ```
-GET /authentications/:username
+GET /authorizations/:username
 ```
 Parameters
 
