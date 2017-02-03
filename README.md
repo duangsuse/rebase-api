@@ -1,4 +1,4 @@
-API v0.7
+API v0.7.1
 
 # Specifications
 
@@ -78,7 +78,7 @@ Status: 201 Created
 {
     "username": "drakeet",
     "name": "drakeet",
-    "email": "drakeet.me@gmail.com", 
+    "email": "drakeet.me@gmail.com",
     "description": "an Android developer."
 }
 ```
@@ -148,7 +148,7 @@ Parameters
 | :-------- | :--------| :-- |
 | key | String | **Required**. The key of the category. It's the id of the category. |
 | name | String | **Required**. The name of the category. |
-| rank | int | **Required**. The rank of the category. |
+| rank | int | Default: 0. The rank of the category. |
 
 Response
 
@@ -194,7 +194,7 @@ Status: 200 OK
         "url": "an url",
         "category": "a category",
         "owner": "an owner",
-        "cover": "a cover url",
+        "cover_url": "a cover url",
         "published_at": "2017-02-02T20:40:42+0800"
     },
     {
@@ -204,7 +204,7 @@ Status: 200 OK
         "url": "an url",
         "category": "a category",
         "owner": "an owner",
-        "cover": "a cover url",
+        "cover_url": "a cover url",
         "published_at": "2017-02-02T20:40:41+0800"
     }
 ]
@@ -220,10 +220,10 @@ Input
 
 | Name      |    Type | Description  |
 | :-------- | :--------| :-- |
-| title | String | The title of the feed. |
+| title | String | **Required**. The title of the feed. |
 | content | String | The content of the feed. |
 | url | String | The target URL of the feed. |
-| cover | String | The cover URL of the feed. |
+| cover_url | String | The cover URL of the feed. |
 
 Response
 
@@ -238,7 +238,7 @@ Location: https://api.drakeet.com/rebase/categories/drakeet/fun/feeds/5883235334
     "url": "an url",
     "category": "a category",
     "owner": "an owner's username",
-    "cover": "a cover url",
+    "cover_url": "a cover url",
     "published_at": "2017-02-02T20:40:42+0800"
 }
 ```
