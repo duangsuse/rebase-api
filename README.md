@@ -81,11 +81,11 @@ Location: https://api.drakeet.com/rebase/users/drakeet
     "name": "drakeet",
     "email": "drakeet.me@gmail.com",
     "description": "an Android developer.",
-    "authorization" : {
-		    "access_token" : "431240f28f0637a640a051fce3632a88463dcc0o",
-		    "updated_at" : "2017-02-02T20:40:42+0800"
-	  },
-	  "created_at" : "2017-02-02T20:40:42+0800"
+    "authorization": {
+        "access_token": "431240f28f0637a640a051fce3632a88463dcc0o",
+        "updated_at": "2017-02-02T20:40:42+0800"
+    },
+    "created_at": "2017-02-02T20:40:42+0800"
 }
 ```
 
