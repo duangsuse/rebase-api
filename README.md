@@ -251,7 +251,7 @@ Location: https://api.drakeet.com/rebase/categories/drakeet/fun/feeds/5883235334
 ## Delete a feed
 
 ```
-DELETE categories/:owner/:category/feeds/:_id
+DELETE /categories/:owner/:category/feeds/:_id
 ```
 
 Response
