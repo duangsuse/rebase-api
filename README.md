@@ -113,7 +113,7 @@ Status: 200 OK
 
 # Categories
 
-A user can create up to 11 categories.
+One user can create up to 11 categories.
 
 ## List categories of someone
 
