@@ -1,4 +1,4 @@
-API v0.7.1
+API v0.7.2
 
 # Specifications
 
@@ -253,6 +253,51 @@ Location: https://api.drakeet.com/rebase/categories/drakeet/fun/feeds/5883235334
     "published_at": "2017-02-11T20:40:42+0800"
 }
 ```
+
+## Edit a feed
+
+```
+PATCH /categories/:owner/:category/feeds/:_id
+```
+
+Input
+
+| Name      |    Type | Description  |
+| :-------- | :--------| :-- |
+| title | String | Optional. The title of the feed. |
+| content | String | Optional. The content of the feed. |
+| url | String | Optional. The target URL of the feed. |
+| cover_url | String | Optional. The cover URL of the feed. |
+| category | String | Optional. The category of the feed. |
+
+e.g.
+
+```
+{
+    "title": "a new title"
+}
+```
+
+Response
+
+```
+Status: 200 ok
+
+{
+    "_id": "1",
+    "title": "a new title",
+    "content": "a content",
+    "url": "an url",
+    "category": "a category",
+    "owner": "an owner's username",
+    "cover_url": "a cover url",
+    "created_at": "2017-02-11T10:51:07+0800", 
+    "published_at": "2017-02-11T20:40:42+0800", 
+    "updated_at": "2017-02-13T20:40:42+0800"
+}
+```
+
+
 ## Delete a feed
 
 ```
